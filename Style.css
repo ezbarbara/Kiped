@@ -1,0 +1,368 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+
+html{
+font-size: 20px; 
+
+       
+}
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+}
+
+/* INDEX */
+
+.boton_logo a{
+    color: red;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    font-size: 100px;
+    font-weight: bolder;
+    
+
+}
+.sub-titulo{
+    color: red;
+    font-family: 'Varela Round', sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    letter-spacing: 4px;
+    
+}
+/* .section1{
+ font-size: 20px; */
+ 
+
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    width: fit-content;
+    
+    
+
+}
+
+.boton{
+    background-color: cornflowerblue;
+    width: fit-content;
+    border: solid 2px; color: cornflowerblue;
+    border-radius: 6px;
+    padding: 5px 5px;
+    margin: auto;
+    
+}
+
+
+.fondo_index{
+    background-image: url(./imagenes/portrait-of-girl-looking-through-her-painted-hands-standing-against-white-brick-wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    background-attachment: fixed;
+
+}
+.textoindex{
+    color: blue;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Varela Round', sans-serif;
+
+
+   
+    letter-spacing: 3px;
+    display: inline;
+    margin: auto;
+    padding: 100px 100px;
+
+    
+
+/* No logro colocarlo en el margen derecho y no me doy cuenta como agrandarlo*/
+   
+
+
+ 
+
+
+}
+.redes__sociales{
+    position: relative;
+    display: inline-block;
+    align-items: flex-end;
+    float: right;
+    width: 50%;
+    grid-template-rows: min-content;
+
+   /*  margin-top: 50px;
+    margin-right: 50px;
+    z-index: 2000; */
+    
+
+}
+.redes__sociales ul{
+    list-style: none;
+
+}
+.redes__sociales ul li a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+    /* Sigo sin poder resolver el tema redes sociales y alinear en margen superior derecho */
+
+    
+.texto__programas{
+  
+    color: blue;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px 30px;
+  }
+
+
+
+.programas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px 50px;
+
+}
+.programas__card{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    border-radius: 2px solid black;
+    
+
+}
+
+.programas__card__imagen{
+    width: 200px;
+    height: 200px;
+
+}
+.programas__card__titulo{
+  width: fit-content;
+  color: blue;
+  font-size: 20px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+}
+.programas__card__texto{
+    width: fit-content;
+    color: black;
+    font-size: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+/* TRATAMIENTOS */
+.fondo_tratamientos{
+    background-image: url(./imagenes/close-up-of-cute-kid-full-of-paint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    background-attachment: fixed;
+}
+
+  .encabezado__lista__item a{
+      color: blue;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 20px;
+      text-decoration: none;
+  }
+  /* No se como incluir a UBICACION con tipografia y color */
+  .itemSubmenu a{
+      color: blue;
+      font-family: 'Varela Round', sans-serif;
+      font-size: 20px;
+      text-decoration: none;
+  
+  }
+  
+  
+  
+  .encabezado__lista__item{
+      display: inline-block;
+      margin: 20px;
+      height: fit-content;
+  }
+  .encabezado__lista{
+      display: flex;
+      flex-direction: row;
+  
+      margin: auto;
+      width: 100%;
+      justify-content: center;
+      align-items: flex-start;
+  
+      position: sticky;
+      top: 0%;
+  
+  }
+  .itemSubmenu{
+      position: relative;
+  }
+  .encabezado__lista__submenu{
+  /* Clase del submenu */
+  background-color: blue;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  display: none;
+  }
+  
+  .itemSubmenu:hover .encabezado__lista__submenu{
+      display: block;
+  
+  }
+  /* No puedo lograr que San Isidro quede en la misma linea */
+
+  
+.titulo2 {
+    color: red;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 50px;
+    padding: 100px 100px;
+    
+    letter-spacing: 3px;
+    position: sticky;
+}
+
+.textoscomunes{
+    
+    width: fit-content;
+    color: black;
+    font-size: 20px;
+    font-family:'Varela Round', sans-serif;
+    font-weight: bold;
+    
+}
+.lista__tratamientos{
+
+    padding: 50px 50px;
+    color: blue;
+    font-size: 20px
+    
+}
+
+.lista__tratamientos__item {
+font-weight: bold;
+font-size: 20px;
+font-family:'Varela Round', sans-serif;        
+  }
+/* PROGRAMAS */
+
+.fondo_programas{
+    background-image: url(./imagenes/little-kid-playing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: crisp-edges; 
+    background-attachment: fixed;
+}
+
+
+/* CONTACTO */
+.fondo_contacto{
+    background-image: url(./imagenes/girl-showing-call-sign-in-studio.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: crisp-edges; 
+    background-attachment: fixed;
+    
+.medios__de__contacto{
+    margin: center;
+    padding: 30px 30px;
+    
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+.medios__de__contacto__item{
+    font-family:Varela Round, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+}
+.formulario{
+    margin: center;
+    padding: 30px 30px;
+     
+    justify-content: left;
+}
+.formulario__item{
+    font-family:Varela Round, sans-serif;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+}
+
+/* UBICACION */
+.fondo_ubicacion{
+    background-image: url(./imagenes/little-cute-girl-school-girl-sits-on-white-wooden-background-with-globe-in-his-hands-and-notebook-the-concept-of-knowledge.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: crisp-edges;
+    background-attachment: fixed;
+}
+.ubicacion{
+    margin-left: 0%;
+    padding: 100px 100px;
+    justify-content: left;
+    font-family:Varela Round, sans-serif;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+    }
+    .ubicacion__item{
+        font-family:Varela Round, sans-serif;
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+          
+    
+    }
+
+
+
+
+/* 
+.subtitulo{
+    width: fit-content;
+    color: red;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+  }
+ */
