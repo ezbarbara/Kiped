@@ -1,12 +1,95 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- <h1>KIPED</h1> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="Style.css">
+    <header>
+    <nav class="navbar navbar-expand-lg bg-primary"><!-- Color del nav -->
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">KIPED</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tratamientos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Programas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Ubicacion</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<section class="container bg-primary">
+  
+<div id="carrousel1" class="carousel slide" data-bs-ride="true">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <p>Nuestros programas</p>
+      <img src="..." class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <p>CME</p>
+      <img src="../imagenes/cme.png" class="d-block w-100" alt="Cuevas Medek Exercises">
+    </div>
+    <div class="carousel-item">
+      <p>Hidroterapia</p>
+      <img src="../imagenes/medium-shot-smiley-girl-with-lifebuoy.jpg" class="d-block w-100" alt="Hidroterapia">
+    </div>
+    <div class="carousel-item">
+      <p>Inclusion deportiva</p>
+      <img src="../imagenes/courageous-kids-playing-in-an-adventure-park.jpg" class="d-block w-100" alt="Inclusion deportiva">
+    </div>
+    <div class="carousel-item">
+      <p>Talleres de juegos</p>
+      <img src="../imagenes/top-view-non-binary-kids-playing-with-colorful-game.jpg" class="d-block w-100" alt="Talleres de juegos">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</section>
+
+<section class="container-fluid bg-danger">
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12">  
+  <p>CME Cuevas Medek Exercises:s una terapia psicomotriz basada en ejercicios dinámicos desafiantes, aplicados manualmente en niños afectados en su desarrollo motor. Esta terapia proporciona pautas muy concretas para estimular a los bebés de forma totalmente segura, desde los dos meses de edad hasta muchos años después del nacimiento</p>
+<div class="col-lg-1 col-md-6 col-sm-12">
+  
+</div>
+</section>  
 </body>
 </html>
